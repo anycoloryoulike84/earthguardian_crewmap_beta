@@ -1,8 +1,8 @@
 
 ## DEMO:
-```
-https://earthguardian-crewmap-beta.herokuapp.com/
-```
+
+[CrewMap Beta](https://earthguardian-crewmap-beta.herokuapp.com/ "CrewMap Beta")
+
 ## Set Up
 ```
 # clone the repo
