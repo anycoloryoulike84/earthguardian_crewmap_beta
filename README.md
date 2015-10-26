@@ -1,9 +1,3 @@
-## DEMO:
-
-https://earthguardian-crewmap-beta.herokuapp.com/
-
-
-
 
 ## DEMO:
 
