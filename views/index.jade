@@ -9,6 +9,7 @@ html
     link(type='favicon', href='favicon.jpg')
     link(rel='stylesheet', href='/stylesheets/bootstrap.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js')
     link(href='https://fonts.googleapis.com/css?family=Open+Sans', rel='stylesheet', type='text/css')
 
       
@@ -18,7 +19,7 @@ html
       margin: 0;
       padding: 0;
       }
-    script(src='https://maps.google.com/maps/api/js?sensor=false', type='text/javascript')
+    script(src='https://maps.google.com/maps/api/js?', type='text/javascript')
    
 
 
@@ -914,7 +915,6 @@ html
       ["Contact Name/Email: <br>" + "karin@lindeman.me      Wingerd 4   The Hague",52.04618,4.369266],
       ["Contact Name/Email: <br>" + "lilyt1_@hotmail.com    35 Beach St Merimbula NSW",-36.888154,149.911614],
 
-
       ["Contact Name/Email: <br>" + "h.levit@my.khabele.org Austin",30.267153,-97.743061],
       ["Contact Name/Email: <br>" + "euphorianaturals@gmail.com   Fairfax",38.846224,-77.306373],
       ["Contact Name/Email: <br>" + "earthsinvitation@gmail.com   quincy",42.252877,-71.002271],
@@ -996,7 +996,7 @@ html
       ["Contact Name/Email: <br>" + "ecokopo@sapo.pt  CAME, Atelier 5   Montemor-o-novo, PORTUGAL",38.647283,-8.212289]
 
 
-      ]
+      ];
 
 
       var map = new google.maps.Map(document.getElementById('map'), {
