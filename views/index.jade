@@ -397,7 +397,7 @@ html
       23.0216238, 72.5797068],
       
       ['Contact Name: TEST   <br>Email: 12bal116@nirmauni.ac.in <br>City/State: Ahmedabad , GUJARAT',
-      24.0216238, 73.5797068, 'THIRD INDEX IN ARRAY TEST'],
+      24.0216238, 73.5797068],
       
       
       ];
@@ -421,7 +421,7 @@ html
       });
       google.maps.event.addListener(marker, 'click', (function (marker, i) {
       return function () {
-      infowindow.setContent(locations[i][0], '<br>lineBreak'+ locations[i][3]);
+      infowindow.setContent(locations[i][0]);
       infowindow.open(map, marker, i);
       }
       })(marker, i));
