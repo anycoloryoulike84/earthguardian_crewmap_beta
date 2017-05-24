@@ -483,7 +483,8 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
-    background-color: #FFFEF5
+    background-color: #0c242c;
+    color: #fff;
 }
 
 
@@ -522,8 +523,8 @@ body {
         text-align: center;
       font-size: 2em;
       padding: 1em 8px;
-      color: #333;
-      background-color: rgba(150,247,150, .4);
+      color: #fff;
+      background-color: #00394a;;
       margin: 0; }
    #content {
       padding: 0 50px 50px; 
